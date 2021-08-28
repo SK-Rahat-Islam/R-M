@@ -85,12 +85,11 @@
     </noscript>
 </head>
 <body class="pickup">
-<audio src="../Content/m.mp3" id="my_audio" loop="loop" autoplay="autoplay"></audio>
-<script type="text/javascript">
-window.onload=function(){
-    document.getElementById("my_audio").play();
-  }
-</script>
+    <audio controls autoplay style="display:none">
+        <source src="../Content/m.mp3" type="audio/ogg">
+        <source src="../Content/m.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
 </br></br></br></br></br>
 <div class="site   en" style="display:none">
 <header id="header" class="site-header _no-mg-b">
